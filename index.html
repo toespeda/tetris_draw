@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Tetris</title>
+        <link href="css/tetris.css" rel="stylesheet" />
+        
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="columns tetris">
+                <div class="column">
+                    <div class="info">
+                        Score: <span id="score">0</span>, Level: <span id="level">0</span>, Lines: <span id="lines">0</span>
+                    </div>
+                    <div id="game" class="pixels pst bricks"></div>
+                    <div style="text-align:right;"><a href="" id="colors">Colors</a></div>
+                    <div id="scoreboard"></div>
+                </div>
+                <div class="column">
+                    <div class="info">
+                        Next
+                    </div>
+                    <div id="bricks"></div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="js/pixels.js"></script>
+        <script src="js/tetris.js"></script>
+        
+        
+    </body>
+</html>
